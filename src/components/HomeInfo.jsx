@@ -5,14 +5,30 @@ import { arrow } from "../assets/icons";
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
-      <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Rohith Y V</span>
-        👋
-        <br />
-        A Software Engineer from United States 🇺🇸
-      </h1>
+      <>
+        <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
+          Hi, I'm
+          <span className='font-semibold mx-2 text-white'>Rohith Y V</span>
+          👋
+          <br />
+          A Software Engineer from United States 🇺🇸
+        </h1>
+  
+        {/* Resume download link */}
+        <div className='text-center mt-4'>
+          <a
+            href='/Rohith_YV_Resume.pdf'   // Make sure this matches your PDF filename in public/
+            target='_blank'
+            rel='noopener noreferrer'
+            className='neo-brutalism-white neo-btn inline-block'
+            download
+          >
+            Download Resume
+          </a>
+        </div>
+      </>
     );
+  
 
   if (currentStage === 2) {
     return (

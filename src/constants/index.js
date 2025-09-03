@@ -128,7 +128,7 @@ export const experiences = [
         company_name: "Sony",
         icon: sony,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Sep 2021 - Oct 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -187,7 +187,7 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Video Call Application',
-        description: ''Real-time video chat application, enabling peer-to-peer video communication with user-friendly interface and seamless connectivity',
+        description: 'Real-time video chat application, enabling peer-to-peer video communication with user-friendly interface and seamless connectivity',
         link: 'https://github.com/rohithyv/video-chat-app',
     },
     {
@@ -197,47 +197,18 @@ export const projects = [
         description: 'WeatherNow allows users to search for any city and view real-time weather data, including temperature, humidity, wind speed, and current weather conditions.',
         link: 'https://weather-now-plum-psi.vercel.app/',
     },
-
-    // {
-    //     iconUrl: pricewise,
-    //     theme: 'btn-back-red',
-    //     name: 'Amazon Price Tracker',
-    //     description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    //     link: 'https://github.com/adrianhajdin/pricewise',
-    // },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    // },
-    // {
-    //     iconUrl: snapgram,
-    //     theme: 'btn-back-pink',
-    //     name: 'Full Stack Instagram Clone',
-    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    //     link: 'https://github.com/adrianhajdin/social_media_app',
-    // },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'AI Summarizer Application',
-    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Car Rent',
+        description: 'A responsive car rental website using HTML, CSS, and JavaScript',
+        link: 'https://car-rent-iota-gules.vercel.app/',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'DRIVEMATE',
+        description: 'DRIVEMATE is a web-based application that helps users find nearby essential services such as hospitals, restaurants, fuel stations, hotels, and schools within a specified radius. The application utilizes the Geoapify Places API for location data and Leaflet.js for interactive map visualization.',
+        link: 'https://drivemate-lac.vercel.app/',
+    },
 ];
