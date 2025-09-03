@@ -187,7 +187,7 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Video Call Application',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        description: ''Real-time video chat application, enabling peer-to-peer video communication with user-friendly interface and seamless connectivity',
         link: 'https://github.com/rohithyv/video-chat-app',
     },
     {
