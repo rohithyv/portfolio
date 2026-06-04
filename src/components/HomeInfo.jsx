@@ -5,8 +5,8 @@ import { arrow } from "../assets/icons";
 const HomeInfo = ({ currentStage }) => {
 if (currentStage === 1)
   return (
-    <div className='neo-brutalism-blue py-4 px-8 mx-5 flex flex-col sm:flex-row items-center gap-4'>
-      <h1 className='sm:text-xl sm:leading-snug text-center text-white'>
+    <div className='neo-brutalism-blue py-4 px-8 mx-5 text-center'>
+      <h1 className='sm:text-xl sm:leading-snug text-white'>
         Hi, I'm
         <span className='font-semibold mx-2 text-white'>Rohith Y V</span>
         👋
@@ -16,7 +16,7 @@ if (currentStage === 1)
       
         href='/Resume_Rohith.pdf'
         download='Resume_Rohith.pdf'
-        className='neo-brutalism-white neo-btn'
+        className='neo-brutalism-white neo-btn mt-4 inline-block w-auto px-6 py-2'
       >
         ⬇ Resume
       </a>
