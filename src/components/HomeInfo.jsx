@@ -17,14 +17,12 @@ const HomeInfo = ({ currentStage }) => {
         {/* Resume download link */}
         <div className='text-center mt-4'>
           <a
-            href='/Rohith_YV_Resume.pdf'   // Make sure this matches your PDF filename in public/
-            target='_blank'
-            rel='noopener noreferrer'
-            className='neo-brutalism-white neo-btn inline-block'
-            download
-          >
-            Download Resume
-          </a>
+href='/Resume_Rohith.pdf'
+  download='Resume_Rohith.pdf'
+  className='neo-brutalism-white neo-btn inline-block'
+>
+  ⬇ Download Resume
+</a>
         </div>
       </>
     );
