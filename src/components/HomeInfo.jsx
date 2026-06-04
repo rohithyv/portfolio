@@ -5,22 +5,13 @@ import { arrow } from "../assets/icons";
 const HomeInfo = ({ currentStage }) => {
 if (currentStage === 1)
   return (
-    <div className='neo-brutalism-blue py-4 px-8 mx-5 text-center'>
-      <h1 className='sm:text-xl sm:leading-snug text-white'>
-        Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Rohith Y V</span>
-        👋
-        <br />
-        A Software Engineer from United States 🇺🇸
-      </h1>
-      
-        href='/Resume_Rohith.pdf'
-        download='Resume_Rohith.pdf'
-        className='neo-brutalism-white neo-btn mt-4 inline-block w-auto px-6 py-2'
-      >
-        ⬇ Resume
-      </a>
-    </div>
+    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
+      Hi, I'm
+      <span className='font-semibold mx-2 text-white'>Rohith Y V</span>
+      👋
+      <br />
+      A Software Engineer from United States 🇺🇸
+    </h1>
   );
 
   if (currentStage === 2) {
@@ -53,20 +44,28 @@ if (currentStage === 1)
     );
   }
 
-  if (currentStage === 4) {
-    return (
-      <div className='info-box'>
+if (currentStage === 4) {
+  return (
+    <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
         Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
       </p>
-
-      <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
-        <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-      </Link>
+      <div className='flex gap-3'>
+        
+          href='/Resume_Rohith.pdf'
+          download='Resume_Rohith.pdf'
+          className='neo-brutalism-white neo-btn'
+        >
+          ⬇ Resume
+        </a>
+        <Link to='/contact' className='neo-brutalism-white neo-btn'>
+          Let's talk
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link>
+      </div>
     </div>
-    );
-  }
+  );
+}
 
   return null;
 };
