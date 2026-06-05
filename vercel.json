@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/((?!Resume_Rohith\\.pdf).*)", "destination": "/index.html" }
+    { "source": "/((?!Rohith_YV_Resume\\.pdf).*)", "destination": "/index.html" }
   ]
 }
