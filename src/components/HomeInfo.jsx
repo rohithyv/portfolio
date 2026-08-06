@@ -41,28 +41,25 @@ const HomeInfo = ({ currentStage }) => {
     );
   }
 
-  if (currentStage === 4) {
-    return (
-      <div className='info-box'>
-        <p className='font-medium sm:text-xl text-center'>
-          Need a project done or looking for a dev? <br /> I'm just a few keystrokes away
-        </p>
-        <div className='flex items-center gap-3'>
-          
-            href='/Resume_Rohith.pdf'
-            download='Resume_Rohith.pdf'
-            className='neo-brutalism-white neo-btn'
-          >
-            ⬇ Resume
-          </a>
-          <Link to='/contact' className='neo-brutalism-white neo-btn'>
-            Let's talk
-            <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-          </Link>
-        </div>
+if (currentStage === 4) {
+  return (
+    <div className='info-box'>
+      <p className='font-medium sm:text-xl text-center'>
+        View my resume to learn more about my experience.
+      </p>
+
+      <div className='flex items-center gap-3'>
+        <a
+          href='/Resume_Rohith.pdf'
+          download='Resume_Rohith.pdf'
+          className='neo-brutalism-white neo-btn'
+        >
+          ⬇ Resume
+        </a>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   return null;
 };
