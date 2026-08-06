@@ -186,29 +186,30 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Video Call Application',
-        description: 'Real-time video chat application, enabling peer-to-peer video communication with user-friendly interface and seamless connectivity',
-        link: 'https://github.com/rohithyv/video-chat-app',
-    },
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
         name: 'WeatherNow',
         description: 'WeatherNow allows users to search for any city and view real-time weather data, including temperature, humidity, wind speed, and current weather conditions.',
-        link: 'https://weather-now-plum-psi.vercel.app/',
+        link: 'https://weather-now-ten-alpha.vercel.app/',
     },
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Car Rent',
         description: 'A responsive car rental website using HTML, CSS, and JavaScript',
-        link: 'https://car-rent-iota-gules.vercel.app/',
+        link: 'https://carrent-eta-flax.vercel.app/',
     },
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'DRIVEMATE',
-        description: 'DRIVEMATE is a web-based application that helps users find nearby essential services such as hospitals, restaurants, fuel stations, hotels, and schools within a specified radius. The application utilizes the Geoapify Places API for location data and Leaflet.js for interactive map visualization.',
-        link: 'https://drivemate-lac.vercel.app/',
+        name: 'Clinic Reservation & Management System',
+        description: 'WeCureIT is a full-stack healthcare management platform designed to streamline interactions between patients, doctors, and medical facilities. The system handles complex scheduling logic, multi-facility authorization and secure clinical record-keeping.',
+        link: 'https://github.com/rohithyv/wecureit-clinic-reservation-system',
     },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Project Management',
+        description: 'An open-source project management platform built with ReactJS and Tailwind CSS. It allows teams to manage multiple workspaces, projects, tasks, members, and user roles. The platform also provides analytics to track project progress, completion rates, and team performance.',
+        link: 'https://github.com/rohithyv/project-management',
+    },
+
 ];
